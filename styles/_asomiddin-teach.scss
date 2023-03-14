@@ -1,0 +1,21 @@
+// Asomiddin=teach
+section{
+    .container1{
+        .teach{
+            align-items: center;
+            display: flex;
+            .time{
+                margin: 0 0 0 170px;
+                h2{
+                    max-width: 250px;
+                }
+                p{
+                    max-width: 447px;
+                }
+            }
+            image{
+                margin: 0 104px 0 0;
+            }
+        }
+    }
+}

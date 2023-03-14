@@ -1,0 +1,70 @@
+@import '_asomiddin-introducing';
+@import '_asomiddin-spend';
+@import '_asomiddin-teach';
+@import '_asomiddin-been';
+@import '_asomiddin-take';
+@import '_asomiddin-featured';
+@import '_action';
+@import '_Aro-menu';
+@import '_img-sect';
+@import '_variables';
+@import '_app';
+@import 'asomiddin-famile';
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+// Asomiddin=logo
+header{
+    .container{
+        .logo{
+            ul{
+                align-items: center;
+                display: flex;
+                justify-content: right;
+                gap: 32px;
+                li{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 25px;
+                    list-style: none;
+                    a{
+                         color: black;
+                    }
+                }
+                button{
+                    font-size: 15px;
+                    background-color: #EFAE35;
+                    border-radius: 80px;
+                    padding: 17px 32px 14px 32px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .logo{
+        ul{
+            grid-template-columns: auto auto auto;
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+        .logo{
+        ul{
+            grid-template-columns: auto auto ;
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+        .logo{
+        ul{
+            grid-template-columns: auto auto;
+        }
+    }
+}
+
+

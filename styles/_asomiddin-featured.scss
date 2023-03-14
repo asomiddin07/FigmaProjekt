@@ -1,0 +1,20 @@
+// Asomiddin=featured
+section{
+    .container1{
+        .featured{
+            margin: 180px 180px 180px 70px;
+            h1{
+                text-align: center;
+            }
+            .in{
+                margin: 79px 0 0 0;
+                display: flex;
+                justify-content: space-around;
+                gap: 120px;
+            }
+            .src{
+                margin: 32px 500px 180px 460px;
+            }
+        }
+    }
+}

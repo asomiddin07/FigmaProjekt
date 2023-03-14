@@ -1,0 +1,55 @@
+@import "variables";
+
+.action{
+    background: url("../images/body-bg-girl.png") no-repeat center center ;
+    background-size: cover;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 802px;
+    h2{
+        // padding-top: 231px;
+        margin-bottom: 35px;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 72px;
+    }
+    p{
+        font-size: 17px;
+        line-height: 40px;
+        margin-bottom: 62px;
+    }
+    .action-watch{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        button{
+            // padding: 51px;
+            // padding-left: 58px !important;
+            i{
+                font-size: 18px;
+                padding-top: 51px;
+                padding-bottom: 51px;
+                padding-right: 51px;
+                padding-left: 58px;
+            }
+        }
+        .watch{
+            display: inline-block;
+            align-items: center;
+            h3{
+                font-size: 39px;
+                line-height: 52px;
+                margin-bottom: 0;
+            }
+            small{
+                font-size: 10px;
+                line-height: 16px;
+                letter-spacing: 1.44px;
+                margin-top: 0;
+            }
+        }
+    }
+}
